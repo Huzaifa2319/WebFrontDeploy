@@ -3,7 +3,7 @@ import React from "react";
 const obj = { id: 1, amount: 18650000, semester: "Spring23" };
 
 const pay = () => {
-  fetch("http://localhost:3001/FeePayment", {
+  fetch("https://web-back-deploy-wmx8.vercel.app/FeePayment", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

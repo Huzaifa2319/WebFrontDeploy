@@ -9,7 +9,7 @@ const AttendanceTable = (props) => {
   const [course, setcourse] = useState("-");
   useEffect(() => {
     axios({
-      url: "http://localhost:3001/getAttendence",
+      url: "https://web-back-deploy-wmx8.vercel.app/getAttendence",
       method: "POST",
       data: { rollNo: "20i1896" },
       // data: { rollNo: props.rollNo },

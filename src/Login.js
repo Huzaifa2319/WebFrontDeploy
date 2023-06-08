@@ -31,7 +31,7 @@ const Login = (props) => {
 
   const clickHandel = () => {
     const options = {
-      url: "http://localhost:3001/StudentLogin",
+      url: "https://web-back-deploy-wmx8.vercel.app/StudentLogin",
       method: "POST",
       data: user,
     };

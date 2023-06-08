@@ -19,7 +19,7 @@ const Feedback = (props) => {
 
   const clickHandel = () => {
     const options = {
-      url: "http://localhost:3001/givefeedback",
+      url: "https://web-back-deploy-wmx8.vercel.app/givefeedback",
       method: "POST",
       data: feed,
     };
