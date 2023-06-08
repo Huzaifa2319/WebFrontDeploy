@@ -1,0 +1,12 @@
+.tablebox {
+  display: block;
+  width: 70%;
+  margin: auto;
+  margin-top: 1in;
+  border: 1px solid black;
+  text-align: center;
+}
+.tablebox table th {
+  background-color: blueviolet;
+  color: white;
+}
